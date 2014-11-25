@@ -1,11 +1,12 @@
-<nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-        <li class="Logo">
-          <img src="/assets/Logo.png">
-        </li>
-        <ul class="right">
-            <li class="active"><a href="#">Login</a></li>
-              <!-- put erb conditional if logged in. -->
-        </ul>
-    </ul>
+<nav class="top-bar " data-topbar role="navigation">
+    <div class="row">
+	    <div class="small-6 columns">
+	        <%= image_tag("Logo.png", class: "logo left") %>
+	        <h2 class="logo-name">ZestyTweet</h2>
+	    </div>
+	    <div class="small-6 columns">
+				<%= link_to "Login" , "#", class: "login right" %>
+	              <!-- put erb conditional if logged in. -->
+	    </div>
+    </div>
 </nav>
