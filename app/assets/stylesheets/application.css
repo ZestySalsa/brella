@@ -22,6 +22,8 @@ body {
 
 footer {
 	max-width: none !important;
+	position: absolute;
+	bottom: 0;
 }
 
 .foot {
