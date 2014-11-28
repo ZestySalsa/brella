@@ -1,5 +1,6 @@
 .top-bar {
 	rgba: (151, 151, 151, 0.1);
+	height: 140px;
 }
 
 body {
@@ -14,4 +15,5 @@ footer {
 	background-color: #F76B1C;
 	position: absolute;
 	bottom: 0;
+	width: 100%;
 }
