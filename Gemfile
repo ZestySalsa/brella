@@ -13,5 +13,6 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'figaro'
 gem 'foundation-rails'
+gem 'compass-rails'
 
 gem 'spring',        group: :development
