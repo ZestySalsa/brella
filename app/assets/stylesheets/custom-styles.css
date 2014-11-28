@@ -4,4 +4,14 @@
 
 body {
 	background-image: url("/images/picjumbo.com_IMG_4953.jpg");
+	background: -webkit-linear-gradient(#FAD961, #F76B1C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FAD961, #F76B1C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FAD961, #F76B1C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FAD961, #F76B1C); /* Standard syntax */
+}
+
+footer {
+	background-color: #F76B1C;
+	position: absolute;
+	bottom: 0;
 }
