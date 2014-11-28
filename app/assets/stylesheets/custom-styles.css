@@ -1,18 +1,29 @@
 .top-bar {
-	rgba: (151, 151, 151, 0.1);
-	height: 140px;
+	background-color: rgba(151, 151, 151, 0.1) !important;
+	height: 140px !important;
 }
 
 body {
-	background-image: url("/images/picjumbo.com_IMG_4953.jpg");
-	background: -webkit-linear-gradient(#FAD961, #F76B1C); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#FAD961, #F76B1C); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#FAD961, #F76B1C); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#FAD961, #F76B1C); /* Standard syntax */
+	background-image: url("picjumbo_IMG_4953.jpg") !important;
+	background-size: cover !important;
+}
+
+body:before {
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	background: -webkit-linear-gradient(rgba(250, 217, 97, 0.7), rgba(247, 107, 28, 0.8)) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(250, 217, 97, 0.7), rgba(247, 107, 28, 0.8)) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(250, 217, 97, 0.7), rgba(247, 107, 28, 0.8)) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(250, 217, 97, 0.7), rgba(247, 107, 28, 0.8)) !important; /* Standard syntax */
 }
 
 footer {
 	background-color: #F76B1C;
-	position: absolute;
-	bottom: 0;
+	position: absolute !important;
+	bottom: 0 !important;
 }
