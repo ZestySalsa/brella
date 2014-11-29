@@ -12,6 +12,62 @@
  *
  *= require_tree .
  *= require_self
- *= require foundation_and_overrides
+ //= require foundation_and_overrides
 
  */
+body {
+	background-image: url("/assets/picjumbo.com_IMG_4953.jpg");
+	background-size: cover;
+}
+
+footer {
+	max-width: none !important;
+	position: absolute;
+	bottom: 0;
+}
+
+.foot {
+	background-color: #F76B1C;
+	padding: 20px 10px;
+}
+
+.top-bar {
+	background-color: rgba(151, 151, 151, 0.1) !important;
+	height: 130px;
+}
+
+.logo {
+	padding: 30px 40px 10px 40px;
+	float: left;
+	display: block;
+}
+.login {
+	padding: 35px 200px 35px 35px;
+}
+
+.logo-name {
+	padding: 27px 10px;
+	color: #fff;
+}
+
+.zesty-bg {
+	margin-top: -200px;
+}
+
+.cta-area {
+	padding: 35px 10px 10px 20px;
+}
+
+.cta {
+	background-image: -webkit-linear-gradient(to bottom right, #3023AE, #C86DD7) !important;
+	background-image: -o-linear-gradient(to bottom right, #3023AE, #C86DD7) !important; 
+  background-image: -moz-linear-gradient(to bottom right, #3023AE, #C86DD7) !important; 
+  background-image: linear-gradient( to bottom right, #3023AE, #C86DD7) !important; 
+  border: 1px solid #D8D8D8;
+  border-radius: 5px;
+}
+
+textarea {
+	width: 100%;
+	wrap: hard;
+}
