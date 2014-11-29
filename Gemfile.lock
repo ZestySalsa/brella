@@ -29,8 +29,10 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
+    bootstrap_form (2.2.0)
     buftok (0.2.0)
     builder (3.2.2)
+    coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -65,6 +67,7 @@ GEM
       mime-types (>= 1.16, < 3)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
+    method_source (0.8.2)
     mime-types (2.4.3)
     minitest (5.4.3)
     multi_json (1.10.1)
@@ -80,6 +83,10 @@ GEM
     omniauth-twitter (1.1.0)
       multi_json (~> 1.3)
       omniauth-oauth (~> 1.0)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -111,6 +118,7 @@ GEM
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
     simple_oauth (0.3.0)
+    slop (3.6.0)
     spring (1.2.0)
     sprockets (2.11.3)
       hike (~> 1.2)
@@ -148,12 +156,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap_form
   coffee-rails (~> 4.0.0)
   figaro
   foundation-rails
   jbuilder (~> 2.0)
   jquery-rails
   omniauth-twitter (~> 1.1.0)
+  pry
   rails (= 4.1.7)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)

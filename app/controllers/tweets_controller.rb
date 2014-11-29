@@ -4,6 +4,7 @@ class TweetsController < ApplicationController
   respond_to :html
 
   def index
+    @tweet = Tweet.new
     @tweets = Tweet.all
     respond_with(@tweets)
   end

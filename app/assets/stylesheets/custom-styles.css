@@ -6,6 +6,7 @@
 
 .logo-name{
 	color: #ffffff !important;
+	margin-left: 60px;
 }
 
 #space {
@@ -13,7 +14,7 @@
 }
 
 #space img, {
-	margin: 0px 20px !important;
+	padding: 0px 20px !important;
 }
 
 .cta-area {

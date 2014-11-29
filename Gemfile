@@ -14,5 +14,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'figaro'
 gem 'foundation-rails'
 gem 'twitter', '~> 5.13.0'
+gem 'pry'
+gem 'bootstrap_form'
 
 gem 'spring',        group: :development
