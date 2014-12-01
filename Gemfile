@@ -3,7 +3,7 @@ ruby '2.1.2'
 
 gem 'coffee-rails', '~> 4.0.0'
 gem 'rails', '4.1.7'
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', github: 'rails/sass-rails', branch: '4-0-stable'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'bootstrap_form'
