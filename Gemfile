@@ -13,6 +13,7 @@ gem 'omniauth-twitter', '~> 1.1.0'
 gem 'jbuilder', '~> 2.0'
 gem "sprockets", "2.11.0"
 gem 'twitter', '~> 5.13.0'
+gem 'foundation-rails'
 
 group :development do
   gem 'sqlite3'
