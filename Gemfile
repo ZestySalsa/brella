@@ -11,9 +11,8 @@ gem 'figaro'
 gem 'turbolinks'
 gem 'omniauth-twitter', '~> 1.1.0'
 gem 'jbuilder', '~> 2.0'
-gem 'foundation-rails'
+gem "sprockets", "2.11.0"
 gem 'twitter', '~> 5.13.0'
-gem 'compass-rails'
 
 group :development do
   gem 'sqlite3'

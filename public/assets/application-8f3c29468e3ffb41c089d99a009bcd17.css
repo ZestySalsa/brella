@@ -1,0 +1,168 @@
+/* line 1, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/custom-styles.css.scss */
+.top-bar {
+  background-color: rgba(151, 151, 151, 0.3) !important;
+  height: 140px !important;
+  border-bottom: 1px solid #979797;
+}
+
+/* line 7, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/custom-styles.css.scss */
+.logo-name {
+  color: #ffffff !important;
+  margin-left: 60px;
+}
+
+/* line 12, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/custom-styles.css.scss */
+#space {
+  padding: 40px 0 0 40px;
+}
+
+/* line 16, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/custom-styles.css.scss */
+#space img {
+  padding: 0px 20px !important;
+}
+
+/* line 20, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/custom-styles.css.scss */
+.cta-area {
+  padding: 45px 0px;
+}
+
+/* line 24, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/custom-styles.css.scss */
+.cta {
+  border: 1px solid #3023AE !important;
+  border-radius: 5px !important;
+  box-shadow: 2px 2px 1px #3023AE;
+  background: -webkit-linear-gradient(45deg, #3023ae, #c86dd7) !important;
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(45deg, #3023ae, #c86dd7) !important;
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(45deg, #3023ae, #c86dd7) !important;
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(45deg, #3023ae, #c86dd7) !important;
+  /* Standard syntax */
+}
+
+/* line 34, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/custom-styles.css.scss */
+.cta:hover {
+  border: 1px solid #3023AE !important;
+  box-shadow: none !important;
+}
+
+/* line 39, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/custom-styles.css.scss */
+body {
+  background-image: url("picjumbo_IMG_4953.jpg") !important;
+  background-size: cover !important;
+}
+
+/* line 44, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/custom-styles.css.scss */
+body:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: -webkit-linear-gradient(rgba(250, 217, 97, 0.7), rgba(247, 107, 28, 0.8)) !important;
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(250, 217, 97, 0.7), rgba(247, 107, 28, 0.8)) !important;
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(250, 217, 97, 0.7), rgba(247, 107, 28, 0.8)) !important;
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(250, 217, 97, 0.7), rgba(247, 107, 28, 0.8)) !important;
+  /* Standard syntax */
+}
+
+/* line 58, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/custom-styles.css.scss */
+footer {
+  position: absolute !important;
+  bottom: 0 !important;
+}
+
+/* line 63, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/custom-styles.css.scss */
+.foot {
+  padding: 20px 30px;
+  max-width: none !important;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 20, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/application.css.scss */
+body {
+  background-image: url("/assets/picjumbo.com_IMG_4953.jpg");
+  background-size: cover;
+}
+
+/* line 25, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/application.css.scss */
+footer {
+  max-width: none !important;
+  position: absolute;
+  bottom: 0;
+}
+
+/* line 31, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/application.css.scss */
+.foot {
+  background-color: #F76B1C;
+  padding: 20px 10px;
+}
+
+/* line 36, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/application.css.scss */
+.top-bar {
+  background-color: rgba(151, 151, 151, 0.1) !important;
+  height: 130px;
+}
+
+/* line 41, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/application.css.scss */
+.logo {
+  padding: 30px 40px 10px 40px;
+  float: left;
+  display: block;
+}
+
+/* line 46, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/application.css.scss */
+.login {
+  padding: 35px 200px 35px 35px;
+}
+
+/* line 50, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/application.css.scss */
+.logo-name {
+  padding: 27px 10px;
+  color: #fff;
+}
+
+/* line 55, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/application.css.scss */
+.zesty-bg {
+  margin-top: -200px;
+}
+
+/* line 59, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/application.css.scss */
+.cta-area {
+  padding: 35px 10px 10px 20px;
+}
+
+/* line 63, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/application.css.scss */
+.cta {
+  background-image: -webkit-linear-gradient(to bottom right, #3023ae, #c86dd7) !important;
+  background-image: -o-linear-gradient(to bottom right, #3023ae, #c86dd7) !important;
+  background-image: -moz-linear-gradient(to bottom right, #3023ae, #c86dd7) !important;
+  background-image: linear-gradient(to bottom right, #3023ae, #c86dd7) !important;
+  border: 1px solid #D8D8D8;
+  border-radius: 5px;
+}
+
+/* line 72, /home/action/workspace/zesty/zesty_tweet/app/assets/stylesheets/application.css.scss */
+textarea {
+  width: 100%;
+  wrap: hard;
+}
