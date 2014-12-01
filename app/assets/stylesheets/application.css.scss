@@ -12,9 +12,11 @@
  *
  *= require_tree .
  *= require_self
- //= require foundation_and_overrides
+ */ 
+ 
+@import "foundation_and_overrides";
 
- */
+
 body {
 	background-image: url("/assets/picjumbo.com_IMG_4953.jpg");
 	background-size: cover;
