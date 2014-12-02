@@ -18,19 +18,8 @@
 
 
 body {
-	background-image: url("<%= asset_path('images/picjumbo.com_IMG_4953.jpg') %>");
+	background-image: url("<%= asset_path('images/picjumbo_IMG_4953.jpg') %>");
 	background-size: cover;
-}
-
-footer {
-	max-width: none !important;
-	position: absolute;
-	bottom: 0;
-}
-
-.foot {
-	background-color: #F76B1C;
-	padding: 20px 10px;
 }
 
 .top-bar {
@@ -44,7 +33,8 @@ footer {
 	display: block;
 }
 .login {
-	padding: 35px 200px 35px 35px;
+	margin: 30px 200px 35px 35px;
+	padding: 5px 15px 5px 15px;
 }
 
 .logo-name {
