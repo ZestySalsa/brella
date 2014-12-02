@@ -44,7 +44,8 @@ GEM
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
       rack (>= 0.9.0)
-    bootstrap_form (2.2.0)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
     buftok (0.2.0)
     builder (3.2.2)
     coderay (1.1.0)
@@ -56,6 +57,7 @@ GEM
       execjs
     coffee-script-source (1.8.0)
     daemons (1.1.9)
+    debug_inspector (0.0.2)
     equalizer (0.0.9)
     erubis (2.7.0)
     eventmachine (1.0.3)
@@ -176,7 +178,7 @@ PLATFORMS
 
 DEPENDENCIES
   better_errors
-  bootstrap_form
+  binding_of_caller
   coffee-rails (~> 4.0.0)
   figaro
   foundation-rails
