@@ -21,7 +21,27 @@ group :development do
   gem 'thin'
   gem 'better_errors'
   gem 'spring'
+end
+
+group :development, :test do
+  gem 'rspec-rails', '3.0.0'
+  gem 'fabrication'
+  gem 'faker'
   gem 'pry'
+  gem 'spring-commands-rspec'
+  gem 'guard-rspec'
+  gem 'childprocess'
+end
+
+group :test do
+  gem 'shoulda-matchers'
+  gem 'capybara'
+  gem 'capybara-email'
+  gem 'vcr'
+  gem 'webmock'
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
+  gem 'poltergeist'
 end
 
 group :production do
