@@ -22,4 +22,4 @@ end
 
 tweet.body regex thing but not before (...)
 
-text.scan(/.{137}/(...))
+
