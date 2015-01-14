@@ -8,4 +8,18 @@ class Tweet < ActiveRecord::Base
   def post_to_twitter
     user.twitter.update(body)
   end
+
+  def self.break_up(text)
+    chunks_array = []
+    if text.length <= 140
+      chunks_array << text
+    else
+
+    end
+  end
 end
+
+
+tweet.body regex thing but not before (...)
+
+text.scan(/.{137}/(...))

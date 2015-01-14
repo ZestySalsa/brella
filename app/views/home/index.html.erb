@@ -39,7 +39,11 @@
           <h5> Your last 5 tweets</h3>
             <% if current_user %>
               <% @timeline_tweets.each do |tweet| %>
-                <div class="panel"><%= tweet.text %></div>
+                <div class="panel">
+                  <a href="<%= tweet.uri %>">
+                    <%= tweet.text %>
+                  </a>
+                </div>
               <% end %>
             <% end %>
         </div>
