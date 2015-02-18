@@ -1,18 +1,21 @@
+<div class="headline">
+  <h2>Tweet Your Thoughts. <b>Make It Rain</b></h2>
+</div>
 <div class="row">
   <div class="small-12">
     <%= render "layouts/messages" %>
-  </div>  
-  <div class="small-3 small-centered columns cta-area">
-    <% if current_user %>
+  </div> 
+  <!-- <div class="headline small-6"> -->
+<!--     <% if current_user %>
       <%= "signed in as #{current_user.name}" %>
     <% else %>
       <%= link_to "Sign Up with Twitter", '/auth/twitter', class: "button expand cta" %>
-    <% end %>
-  </div>
+    <% end %> -->
+  <!-- </div> -->
   <div class="small-12 large-centered columns">
       <div class="small-4 columns left">
         <%= form_for @tweet do |f| %>
-          <%= f.text_area :body, rows: 8, :placeholder => 'ZestyTweet lets you type as much as you
+          <%= f.text_area :body, :placeholder => 'ZestyTweet lets you type as much as you
   want, and then intelligently breaks it up
   into multiple tweets. 
 
@@ -21,32 +24,8 @@
   keep typing, and tweeting without 
   worrying if you’re going to go over the 
   amount of space Twitter gives you.' %>
-          <%= f.submit "Tweet it!", class: "button expand cta" %>
+          <%= f.submit "Submit", class: "button expand submit" %>
         <% end %>
-      </div>
-      <div class="small-4 columns">
-        <div class="tweet-preview">
-          <div class="panel radius"><h5>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend.</h5>
-</div>
-          <div class="panel radius"><h5>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend.</h5>
-</div>
-          <div class="panel radius"><h5>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend.</h5>
-</div>
-        </div>
-      </div>
-      <div class="small-4 columns">
-        <div class="timeline pannel">
-          <h5> Your last 5 tweets</h3>
-            <% if current_user %>
-              <% @timeline_tweets.each do |tweet| %>
-                <div class="panel">
-                  <a href="<%= tweet.uri %>">
-                    <%= tweet.text %>
-                  </a>
-                </div>
-              <% end %>
-            <% end %>
-        </div>
       </div>
   </div>
 </div>

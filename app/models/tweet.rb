@@ -20,6 +20,6 @@ class Tweet < ActiveRecord::Base
 end
 
 
-tweet.body regex thing but not before (...)
+# tweet.body regex thing but not before (...)
 
 
