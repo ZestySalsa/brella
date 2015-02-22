@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.0'
 gem "sprockets", "2.11.0"
 gem 'twitter', '~> 5.13.0'
 gem 'foundation-rails'
+gem 'ChunkyText', "0.0.2"
 
 group :development do
   gem 'binding_of_caller'

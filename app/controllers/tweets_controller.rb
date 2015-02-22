@@ -1,20 +1,20 @@
+
+
 class TweetsController < ApplicationController
 
   def create
     @user = current_user
-    # 1. parse the text into 140 char chunks add to arr
-    # 2. loop the array and send each chunk
 
     if tweet_params
-      tweet_chunks = Tweet.break_up(tweet_params[:body])
-      # ['ssssssss', 'sssssssss']
+      text = ChunkyText::Chunker.new(tweet_params[:body], 140)
     
-      tweet_chunks.each do |tweet_chunk|
-        tweet = Tweet.new(tweet: tweet_chunk, user_id: @user.id) 
+      text.chunk_array.each do |tweet_text|
+        tweet = Tweet.new(body: tweet_text, user_id: @user.id) 
         tweet.post_to_twitter
       end
       
-      flash[:success] = "Your tweet has been sent!"
+      # add a modal for tweet timeline
+      flash[:success] = "Your tweet(s) has been sent!"
       redirect_to root_path
     else
       flash[:error] = "The tweet can't be empty."

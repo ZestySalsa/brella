@@ -12,6 +12,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    ChunkyText (0.0.2)
     actionmailer (4.1.7)
       actionpack (= 4.1.7)
       actionview (= 4.1.7)
@@ -177,6 +178,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ChunkyText (= 0.0.2)
   better_errors
   binding_of_caller
   coffee-rails (~> 4.0.0)

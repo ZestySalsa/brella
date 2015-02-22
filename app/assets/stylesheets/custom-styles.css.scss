@@ -61,12 +61,22 @@ textarea {
 
 footer {
 	max-width: none;
-	position: absolute !important;
-	bottom: 0 !important;
+	//position: absolute !important;
+	//bottom: 0 !important;
 }
 
-.foot {
+.foot, .row {
 	background-color: white;
 	padding: 20px 30px;
 	max-width: none !important;
+}
+
+.message{
+	padding-left: 68px;
+}
+
+.current_user {
+    position: absolute;
+    right: 44px;
+    top: 41px;
 }
