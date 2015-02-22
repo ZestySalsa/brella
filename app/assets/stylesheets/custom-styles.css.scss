@@ -1,5 +1,10 @@
-h5 {
-	font-size: 10px !important;
+@font-face {
+  font-family: "BebasNeue";
+  src: url("fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "BebasNeue";
 }
 
 img.brella {
@@ -33,11 +38,13 @@ img.brella {
 
 .headline {
 	margin-left:50px;
+	margin-bottom: 50px;
 }
 
-.main-form {
-	height: 400px;
-	width:100%;
+textarea {
+	min-height: 300px;
+	min-width: 900px;
+	margin-bottom: none !important;
 }
 
 .submit {
