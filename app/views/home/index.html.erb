@@ -1,5 +1,5 @@
 <div class="headline">
-  <h2>Tweet Your Thoughts. <b>Make It Rain</b></h2>
+  <h2 class="tk-bebas-neue">Tweet Your Thoughts. <b>Make It Rain</b></h2>
 </div>
 <div class="row">
   <div class="small-12">
@@ -9,23 +9,17 @@
 <!--     <% if current_user %>
       <%= "signed in as #{current_user.name}" %>
     <% else %>
-      <%= link_to "Sign Up with Twitter", '/auth/twitter', class: "button expand cta" %>
+      <%= link_to "Sign Up with Twitter", '/auth/twitter', class: "button expand tk-bebas-neue" %>
     <% end %> -->
   <!-- </div> -->
-  <div class="small-12 large-centered columns">
-      <div class="small-4 columns left">
+</div>
+  <div class="message">
         <%= form_for @tweet do |f| %>
           <%= f.text_area :body, :placeholder => 'ZestyTweet lets you type as much as you
   want, and then intelligently breaks it up
   into multiple tweets. 
 
-  You can tell a short story, or go on a rant.
-  We’ll break it down for you, so you can 
-  keep typing, and tweeting without 
-  worrying if you’re going to go over the 
-  amount of space Twitter gives you.' %>
-          <%= f.submit "Submit", class: "button expand submit" %>
+  You can tell a short story, or go on a rant. We’ll break it down for you, so you can keep typing, and tweeting without worrying if you’re going to go over the amount of space Twitter gives you.' %>
+          <%= f.submit "Submit", class: "button submit expand tk-bebas-neue" %>
         <% end %>
-      </div>
   </div>
-</div>
