@@ -4,8 +4,11 @@
 	        <%= image_tag("Brella-1X.png", class: "brella logo left") %>
 	    </div>
 	    <div class="small-4 columns">
-				<%= link_to "Sign In/Up" , '/auth/twitter', class: "button login right" %>
-	              <!-- put erb conditional if logged in. -->
+        <% if current_user %>
+          <%= link_to "Sign Out" , '#', class: "button login right" %>
+        <% else %>
+          <%= link_to "Sign In/Up" , '/auth/twitter', class: "button login right" %>
+        <% end %>
 	    </div>
     </div>
 </nav>
